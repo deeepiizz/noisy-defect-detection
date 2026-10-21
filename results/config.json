@@ -1,0 +1,23 @@
+{
+  "data": "synthetic",
+  "root": "data/mvtec",
+  "category": "screw",
+  "size": 128,
+  "noise": "gaussian",
+  "levels": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "denoisers": [
+    "none",
+    "median",
+    "wiener"
+  ],
+  "detectors": [
+    "zscore",
+    "patchknn"
+  ],
+  "out": "results"
+}
